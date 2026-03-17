@@ -1,0 +1,6 @@
+apiVersion: v2
+name: metabase
+description: Metabase deployment with persistent H2 database
+type: application
+version: 0.1.0
+appVersion: "latest"

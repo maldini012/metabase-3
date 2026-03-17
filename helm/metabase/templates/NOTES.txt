@@ -1,0 +1,5 @@
+Metabase is deploying.
+
+To access locally:
+1. kubectl port-forward svc/{{ include "metabase.fullname" . }} 3000:{{ .Values.service.port }}
+2. Open http://localhost:3000
