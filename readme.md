@@ -63,9 +63,11 @@ Bu proje ile amacimiz:
     ```docker rm -f <container-id>```
 - Image silme:
     ```docker rmi metabase-custom:latest```
-
+- image to .tar 
+    ```docker save -o image.tar image:latest```
 **Helm Bolumu (Manifest Silme + Bilgi)**
 - Manifest bilgisi:
+    ```helm list -A```
     ```helm status metabase-custom```
     ```helm get manifest metabase-custom```
 - Manifest silme (release kaldirma):
@@ -77,6 +79,7 @@ Bu proje ile amacimiz:
     ```kubectl describe deployment <deployment-name>```
     ```kubectl get pvc```
 - Manifest silme:
+    ```kubectl delete pod <pod-name>```
     ```kubectl delete -f <manifest.yaml>```
     ```kubectl delete deployment <deployment-name>```
     ```kubectl delete service <service-name>```
