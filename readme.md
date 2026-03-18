@@ -110,3 +110,9 @@ Bu proje ile amacimiz:
     ```kubectl get all```
 - PVC kontrol:
     ```kubectl get pvc```
+
+
+- metabaser-custom image tar
+```https://we.tl/t-GInPtCcYOf```
+- metabase-official image tar
+```https://we.tl/t-NngklpAVqy```
